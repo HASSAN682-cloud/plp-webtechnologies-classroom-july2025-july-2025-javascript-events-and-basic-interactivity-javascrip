@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#hoverBox {
+  width: 120px;
+  height: 120px;
+  background: #ddd;
+  text-align: center;
+  line-height: 120px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.highlight {
+  background: orange !important;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}

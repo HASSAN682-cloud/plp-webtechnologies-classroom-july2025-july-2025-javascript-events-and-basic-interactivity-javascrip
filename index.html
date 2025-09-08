@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive Demo Page</h1>
+
+  <!-- Section 1: Button Interaction -->
+  <section>
+    <h2>Button Interaction</h2>
+    <button id="colorBtn">Change Background</button>
+    <p id="colorMessage"></p>
+  </section>
+
+  <!-- Section 2: Hover Box -->
+  <section>
+    <h2>Hover Effect</h2>
+    <div id="hoverBox">Hover Over Me</div>
+    <p id="hoverInfo"></p>
+  </section>
+
+  <!-- Section 3: Form -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Section 4: Toggle Content -->
+  <section>
+    <h2>Toggle Section</h2>
+    <button id="toggleBtn">Show/Hide Content</button>
+    <p id="toggleContent" class="hidden">This content can be toggled.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
